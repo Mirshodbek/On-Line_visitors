@@ -2,10 +2,10 @@ import 'dart:collection';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:online_visitors/data.dart';
-import 'package:online_visitors/list_of_visits.dart';
+import 'package:online_visitors/provider/data.dart';
+import 'package:online_visitors/screens/list_of_visits.dart';
+import 'package:online_visitors/screens/visit_area_screen.dart';
 import 'package:online_visitors/toast/toast.dart';
-import 'package:online_visitors/visit_area_screen.dart';
 
 class BrainProvider extends ChangeNotifier {
   final cloudFireStore = FirebaseFirestore.instance;

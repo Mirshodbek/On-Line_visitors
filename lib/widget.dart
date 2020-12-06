@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:online_visitors/provider.dart';
-import 'package:online_visitors/stand_on_line_screen.dart';
+import 'package:online_visitors/provider/provider.dart';
+import 'package:online_visitors/screens/stand_on_line_screen.dart';
 import 'package:online_visitors/toast/toast.dart';
 import 'package:provider/provider.dart';
 

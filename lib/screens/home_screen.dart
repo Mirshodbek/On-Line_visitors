@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:online_visitors/provider.dart';
+import 'package:online_visitors/provider/provider.dart';
 import 'package:provider/provider.dart';
 
 class MyHomePage extends StatelessWidget {

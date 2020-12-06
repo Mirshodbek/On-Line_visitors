@@ -1,7 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:online_visitors/home_screen.dart';
-import 'package:online_visitors/provider.dart';
+import 'package:online_visitors/provider/provider.dart';
+import 'package:online_visitors/screens/home_screen.dart';
 import 'package:provider/provider.dart';
 
 Future main() async {

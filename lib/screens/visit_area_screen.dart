@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:online_visitors/list_of_department.dart';
-import 'package:online_visitors/provider.dart';
+import 'package:online_visitors/provider/provider.dart';
+import 'package:online_visitors/screens/list_of_department.dart';
 import 'package:provider/provider.dart';
 
 class VisitsArea extends StatelessWidget {
